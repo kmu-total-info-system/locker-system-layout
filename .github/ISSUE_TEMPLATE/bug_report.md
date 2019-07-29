@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "[Feature] name of issues"
-labels: enhancement
+title: "[Bug] name of issues"
+labels: Bug
 assignees: ''
 
 ---
