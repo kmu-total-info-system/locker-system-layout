@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+#A1, .locker table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#A1 td{
+    border: 1px solid;
+    padding : 0;
+}
+
+.locker td{
+    width: 100px;
+    height: 40px;
+    background-color: lightgreen;
+}
+
+.locker td:hover {
+    background-color: lightgray;
+}
+
+.locker .broken{
+    background-color: red;
+}
+
+.hallway {
+    background-color: #ffffff;
+    height: 3em;
+}
+
+.classroom {
+    background-color: aliceblue;
+    width: 8em;
+}
