@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-size: 0;
+}
+
+article {
+    max-width: 1276px;
+    margin: auto;
+}
+
+table:nth-child(1) {
+}
+
+table:nth-child(2) {
+}
+
+table {
+    border-collapse: collapse;
+    display: inline-table;
+}
+
+tr {
+    border-collapse: collapse;
+    text-align: center;
+    border: solid 1px black;
+}
+
+td {
+    font-size: 14px;
+    width: 50px;
+    border: solid 1px black;
+}
+
+.c-space {
+    border-left: solid 2px black;
+}
+
+.c-space * td {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.c-space * td:hover {
+    background-color: deepskyblue;
+}
+
+.c-space * td:active {
+    background-color: cornflowerblue;
+}
+
+.d-space {
+    border-right: solid 2px black;
+}
+
+.d-space * td {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.d-space * td:hover {
+    background-color: yellowgreen;
+}
+
+.d-space * td:active {
+    background-color: lightcoral;
+}
+
+.hallway {
+    text-align: center;
+    height: 60px;
+    background-color: lightyellow;
+    line-height: 58px;
+    border: solid 1px;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}
+
+.hallway > span {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.under-hallway-space {
+    width: 100%;
+}
+
+.a-1-space {
+    border: solid 2px black;
+    border-top: solid 1px black;
+}
+
+.room {
+    background-color: grey;
+    border-left: solid 2px black;
+}
