@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+.A-3 {
+
+}
+.A-4 {
+
+}
+
+.first-grade tr{
+    padding : 0px;
+}
+
+.first-grade td{
+    border: 2px solid;
+    padding : 0px;
+    width : 40px;
+    height: 24px;
+}
+.first-grade{
+    padding : 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.layout-horizontal div{
+    display: inline-block;
+}
+.stair-area{
+    padding : 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width : 120px;
+    height: 232px;
+}
+.stair-area td{
+    border: 2px dashed;
+    padding : 0px;
+}
+.stair-area tr{
+    padding : 0px;
+}
+.stair-area .stair{
+    height: 152px;
+}
+.layout-vertical .hallway{
+    border: 2px solid;
+    width : 589px;
+}
+.layout-vertical{
+    display: block;
+}
+.classroom{
+    margin:1px;
+    border: 2px solid;
+    width : 288px;
+}
