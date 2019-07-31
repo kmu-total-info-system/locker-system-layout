@@ -1,12 +1,12 @@
 body {
     text-align: center;
 }
-#A1, .locker table{
+.A1, .locker table{
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-#A1 td{
+.A1 td{
     border: 1px solid;
     padding : 0;
 }
@@ -22,6 +22,14 @@ body {
 }
 
 .locker .broken{
+    background-color: red;
+}
+
+.locker td:active {
+    background-color: green;
+}
+
+.locker .broken:hover{
     background-color: red;
 }
 

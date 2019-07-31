@@ -1,12 +1,12 @@
 body {
     text-align: center;
 }
-#A1, .locker table{
+.A2_B1, .locker table{
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-#A1 td{
+.A2_B1 td{
     border: 1px solid;
     padding : 0;
 }
@@ -14,7 +14,11 @@ body {
 .locker td{
     width: 100px;
     height: 40px;
-    background-color: lightgreen;
+    background-color: orange;
+}
+
+.locker .A{
+    background-color : lightgreen;
 }
 
 .locker td:hover {
@@ -22,6 +26,14 @@ body {
 }
 
 .locker .broken{
+    background-color: red;
+}
+
+.locker td:active {
+    background-color: green;
+}
+
+.locker .broken:hover{
     background-color: red;
 }
 
@@ -33,4 +45,8 @@ body {
 .classroom {
     background-color: aliceblue;
     width: 8em;
+}
+
+.locker .blank{
+    background-color: white;
 }
