@@ -25,15 +25,21 @@ td:active {
     background-color: green;
 }
 
-
 .hallway {
     background-color: #ffffff;
-    height: 3em;
+}
+
+.hallway:hover{
+    background-color: #ffffff;
 }
 
 .classroom {
     background-color: aliceblue;
     width: 8em;
+}
+
+.classroom:hover{
+    background-color: aliceblue;
 }
 
 .broken{
