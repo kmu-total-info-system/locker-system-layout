@@ -22,6 +22,10 @@ body {
 }
 
 .locker td:hover {
+    background-color: gray;
+}
+
+.locker .A:hover {
     background-color: lightgray;
 }
 
@@ -30,6 +34,10 @@ body {
 }
 
 .locker td:active {
+    background-color: yellow;
+}
+
+.locker .A:active {
     background-color: green;
 }
 
