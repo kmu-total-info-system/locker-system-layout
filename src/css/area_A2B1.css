@@ -1,7 +1,7 @@
 body {
     text-align: center;
 }
-.A2_B1, .locker table{
+.A2_B1, table{
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -11,43 +11,42 @@ body {
     padding : 0;
 }
 
-.locker td{
+td{
     width: 100px;
     height: 40px;
     background-color: orange;
 }
 
-.locker .A{
+.A{
     background-color : lightgreen;
 }
 
-.locker td:hover {
+td:hover {
     background-color: gray;
 }
 
-.locker .A:hover {
+.A:hover {
     background-color: lightgray;
 }
 
-.locker .broken{
-    background-color: red;
-}
 
-.locker td:active {
+
+td:active {
     background-color: yellow;
 }
 
-.locker .A:active {
+.A:active {
     background-color: green;
 }
 
-.locker .broken:hover{
-    background-color: red;
-}
+
 
 .hallway {
     background-color: #ffffff;
-    height: 3em;
+}
+
+.hallway:hover{
+    background-color: #ffffff;
 }
 
 .classroom {
@@ -55,6 +54,32 @@ body {
     width: 8em;
 }
 
-.locker .blank{
+.classroom:hover{
+    background-color: aliceblue;
+}
+
+.blank{
     background-color: white;
+}
+
+.blank:hover{
+    background-color: #ffffff;
+}
+
+.broken{
+    background-color: red;
+}
+
+.broken:hover{
+    background-color: red;
+}
+
+.already{
+    background-color: black;
+    color: white;
+}
+
+.already:hover{
+    background-color: black;
+    color: white;
 }

@@ -1,7 +1,7 @@
 body {
     text-align: center;
 }
-.A1, .locker table{
+.A1, table{
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -11,27 +11,20 @@ body {
     padding : 0;
 }
 
-.locker td{
-    width: 100px;
-    height: 40px;
+td{
+    width: 350px;
+    height: 50px;
     background-color: lightgreen;
 }
 
-.locker td:hover {
+td:hover {
     background-color: lightgray;
 }
 
-.locker .broken{
-    background-color: red;
-}
-
-.locker td:active {
+td:active {
     background-color: green;
 }
 
-.locker .broken:hover{
-    background-color: red;
-}
 
 .hallway {
     background-color: #ffffff;
@@ -41,4 +34,22 @@ body {
 .classroom {
     background-color: aliceblue;
     width: 8em;
+}
+
+.broken{
+    background-color: red;
+}
+
+.broken:hover{
+    background-color: red;
+}
+
+.already{
+    background-color: black;
+    color: white;
+}
+
+.already:hover{
+    background-color: black;
+    color: white;
 }
