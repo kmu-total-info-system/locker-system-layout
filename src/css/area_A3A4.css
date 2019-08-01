@@ -1,57 +1,124 @@
 body {
     margin: 0;
-}
-.A-3 {
-
-}
-.A-4 {
+    text-align: center;
 
 }
 
-.first-grade tr{
-    padding : 0px;
+td {
+    font-size: 14px;
 }
 
-.first-grade td{
-    border: 2px solid;
-    padding : 0px;
-    width : 40px;
-    height: 24px;
-}
-.first-grade{
-    padding : 0px;
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-.layout-horizontal div{
+.first-grade {
     display: inline-block;
 }
-.stair-area{
-    padding : 0px;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width : 120px;
+
+.A-3 {
+    margin-bottom: 4px;
+}
+
+.A-4 {
+    margin-bottom: 4px;
+}
+
+.A-3 td:hover {
+    background: chartreuse;
+    cursor: pointer;
+}
+
+.A-4 td:hover {
+    background: darkcyan;
+    cursor: pointer;
+}
+
+.A-3 td:active {
+    background: cyan;
+    cursor: default;
+}
+
+.A-4 td:active {
+    background: dodgerblue;
+    cursor: default;
+}
+
+.upper {
     height: 232px;
 }
-.stair-area td{
+
+.upper div {
+    display: inline-block;
+}
+
+.locker {
+    border: 2px solid black;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: darkgreen;
+}
+
+.locker tr {
+    padding: 0px;
+}
+
+.locker td {
+    border: 1px solid black;
+    padding: 0px;
+    width: 40px;
+    height: 24px;
+}
+
+.stair-area {
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 120px;
+    height: calc(100% - 6px);
+}
+
+.stair-area tr {
+    padding: 0px;
+}
+
+.stair-area td {
     border: 2px dashed;
-    padding : 0px;
+    padding: 0px;
 }
-.stair-area tr{
-    padding : 0px;
+
+.stair {
+    height: 156px;
+    background: gray;
 }
-.stair-area .stair{
-    height: 152px;
-}
-.layout-vertical .hallway{
+
+.hallway {
+    background: gray;
     border: 2px solid;
-    width : 589px;
+    width: calc(100% - 4px);
 }
-.layout-vertical{
-    display: block;
+
+.lower div {
+    display: inline-block;
 }
-.classroom{
-    margin:1px;
+
+.classroom {
+    margin-top: 2px;
     border: 2px solid;
-    width : 288px;
+    width: calc(50% - 7px);
+}
+
+.disable {
+    border: 2px solid black;
+    background: white;
+
+}
+
+.non-clickable {
+    pointer-events: none;
+}
+
+.already {
+    background: red;
+}
+
+.broken {
+    background: red;
 }
