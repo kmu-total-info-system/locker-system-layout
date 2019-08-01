@@ -17,29 +17,26 @@ td{
     background-color: orange;
 }
 
-.A{
-    background-color : lightgreen;
-}
-
 td:hover {
     background-color: gray;
     cursor: pointer;
+}
+
+td:active {
+    background-color: yellow;
+}
+
+.A{
+    background-color : lightgreen;
 }
 
 .A:hover {
     background-color: lightgray;
 }
 
-
-
-td:active {
-    background-color: yellow;
-}
-
 .A:active {
     background-color: green;
 }
-
 
 
 .hallway {
@@ -48,7 +45,6 @@ td:active {
 
 .hallway:hover{
     background-color: #ffffff;
-    cursor: default;
 }
 
 .classroom {
@@ -58,7 +54,6 @@ td:active {
 
 .classroom:hover{
     background-color: aliceblue;
-    cursor: default;
 }
 
 .blank{
@@ -67,6 +62,5 @@ td:active {
 
 .blank:hover{
     background-color: #ffffff;
-    cursor: default;
 }
 

@@ -4,7 +4,6 @@
 
 .broken:hover{
     background-color: red;
-    cursor: default;
 }
 
 .already{
@@ -15,5 +14,8 @@
 .already:hover{
     background-color: black;
     color: white;
-    cursor: default;
+}
+
+.non-clickable{
+    pointer-events : none;
 }
