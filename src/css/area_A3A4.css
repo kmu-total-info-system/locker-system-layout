@@ -3,93 +3,120 @@ body {
     text-align: center;
 
 }
+
 .A-3 {
     margin-bottom: 4px;
 }
+
 .A-4 {
     margin-bottom: 4px;
 }
-.A-3 table td:hover{
+
+.A-3 table td:hover {
     background: chartreuse;
-}
-.A-4 table td:hover{
-    background: darkcyan;
-}
-.A-3 table td:active{
-    background: cyan;
-}
-.A-4 table td:active{
-    background: dodgerblue;
-}
-td{
-    font-size: 14px;
-}
-.locker tr{
-    padding : 0px;
+    cursor: pointer;
 }
 
-.locker td{
+.A-4 table td:hover {
+    background: darkcyan;
+    cursor: pointer;
+}
+
+.A-3 table td:active {
+    background: cyan;
+}
+
+.A-4 table td:active {
+    background: dodgerblue;
+}
+
+td {
+    font-size: 14px;
+}
+
+.locker tr {
+    padding: 0px;
+}
+
+.locker td {
     border: 1px solid black;
-    padding : 0px;
-    width : 40px;
+    padding: 0px;
+    width: 40px;
     height: 24px;
     background: darkgreen;
 }
-.locker{
+
+.locker {
     border: 2px solid black;
-    padding : 0px;
+    padding: 0px;
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-.locker .broken{
+.locker .broken {
     background: red;
     pointer-events: none;
 }
-.upper div{
+
+.upper div {
     display: inline-block;
 }
-.upper{
+
+.upper {
     height: 232px;
 }
-.lower div{
-    font-size:0px;
+
+.lower div {
+    font-size: 0px;
     display: inline-block;
 }
-.stair-area{
-    padding : 0px;
+
+.stair-area {
+    padding: 0px;
     border-collapse: collapse;
     border-spacing: 0;
-    width : 120px;
+    width: 120px;
     height: calc(100% - 6px);
 }
-.stair-area td{
+
+.stair-area td {
     border: 2px dashed;
-    padding : 0px;
+    padding: 0px;
 }
-.stair-area tr{
-    padding : 0px;
+
+.stair-area tr {
+    padding: 0px;
 }
-.stair-area .stair{
+
+.stair-area .stair {
     height: 156px;
     background: gray;
 }
-.first-grade .hallway{
+
+.first-grade .hallway {
     background: gray;
     border: 2px solid;
-    width : calc(100% - 4px);
+    width: calc(100% - 4px);
 }
-.first-grade{
+
+.first-grade {
     display: inline-block;
 }
-.lower .classroom{
-    margin-top:2px;
-    font-size:14px;
+
+.lower .classroom {
+    margin-top: 2px;
+    font-size: 14px;
     border: 2px solid;
-    width : calc(50% - 7px);
+    width: calc(50% - 7px);
 }
+
 .locker .empty {
-     border: 2px solid black;
-     background: white;
+    border: 2px solid black;
+    background: white;
     pointer-events: none;
- }
+}
+
+.locker .already {
+    background: red;
+    pointer-events: none;
+}
