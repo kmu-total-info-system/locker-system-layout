@@ -1,0 +1,19 @@
+.broken{
+    background-color: red;
+}
+
+.broken:hover{
+    background-color: red;
+    cursor: default;
+}
+
+.already{
+    background-color: black;
+    color: white;
+}
+
+.already:hover{
+    background-color: black;
+    color: white;
+    cursor: default;
+}
