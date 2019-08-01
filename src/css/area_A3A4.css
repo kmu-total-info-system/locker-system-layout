@@ -1,29 +1,51 @@
 body {
     margin: 0;
+    text-align: center;
+
 }
 .A-3 {
-
+    margin-bottom: 4px;
 }
 .A-4 {
-
+    margin-bottom: 4px;
 }
-
-.first-grade tr{
+td{
+    font-size: 14px;
+}
+.locker tr{
     padding : 0px;
 }
 
-.first-grade td{
-    border: 2px solid;
+.locker td{
+    border: 1px solid black;
     padding : 0px;
     width : 40px;
     height: 24px;
+    background: darkgreen;
 }
-.first-grade{
+.locker{
+    border: 2px solid black;
     padding : 0px;
     border-collapse: collapse;
     border-spacing: 0;
 }
-.layout-horizontal div{
+.locker td:hover{
+    background: chartreuse;
+}
+.locker td:active{
+    background: cyan;
+}
+.broken{
+    pointer-events: none;
+}
+.upper div{
+    display: inline-block;
+}
+.upper{
+    height: 232px;
+}
+.lower div{
+    font-size:0px;
     display: inline-block;
 }
 .stair-area{
@@ -31,7 +53,7 @@ body {
     border-collapse: collapse;
     border-spacing: 0;
     width : 120px;
-    height: 232px;
+    height: calc(100% - 6px);
 }
 .stair-area td{
     border: 2px dashed;
@@ -41,17 +63,25 @@ body {
     padding : 0px;
 }
 .stair-area .stair{
-    height: 152px;
+    height: 156px;
+    background: gray;
 }
-.layout-vertical .hallway{
+.first-grade .hallway{
+    background: gray;
     border: 2px solid;
-    width : 589px;
+    width : calc(100% - 4px);
 }
-.layout-vertical{
-    display: block;
+.first-grade{
+    display: inline-block;
 }
-.classroom{
-    margin:1px;
+.lower .classroom{
+    margin-top:2px;
+    font-size:14px;
     border: 2px solid;
-    width : 288px;
+    width : calc(50% - 7px);
 }
+.locker .empty {
+     border: 2px solid black;
+     background: white;
+    pointer-events: none;
+ }
