@@ -9,6 +9,18 @@ body {
 .A-4 {
     margin-bottom: 4px;
 }
+.A-3 table td:hover{
+    background: chartreuse;
+}
+.A-4 table td:hover{
+    background: darkcyan;
+}
+.A-3 table td:active{
+    background: cyan;
+}
+.A-4 table td:active{
+    background: dodgerblue;
+}
 td{
     font-size: 14px;
 }
@@ -29,13 +41,9 @@ td{
     border-collapse: collapse;
     border-spacing: 0;
 }
-.locker td:hover{
-    background: chartreuse;
-}
-.locker td:active{
-    background: cyan;
-}
-.broken{
+
+.locker .broken{
+    background: red;
     pointer-events: none;
 }
 .upper div{
