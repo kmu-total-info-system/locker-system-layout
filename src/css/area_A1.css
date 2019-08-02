@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+.A1, table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.A1 td{
+    border: 1px solid;
+    padding : 0;
+}
+
+td{
+    width: 350px;
+    height: 50px;
+    background-color: lightgreen;
+}
+
+td:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+td:active {
+    background-color: green;
+}
+
+.hallway {
+    background-color: #ffffff;
+}
+
+.hallway:hover{
+    background-color: #ffffff;
+}
+
+.classroom {
+    background-color: aliceblue;
+    width: 8em;
+}
+
+.classroom:hover{
+    background-color: aliceblue;
+}
+

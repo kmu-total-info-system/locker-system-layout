@@ -1,0 +1,21 @@
+.broken{
+    background-color: red;
+}
+
+.broken:hover{
+    background-color: red;
+}
+
+.already{
+    background-color: black;
+    color: white;
+}
+
+.already:hover{
+    background-color: black;
+    color: white;
+}
+
+.non-clickable{
+    pointer-events : none;
+}
