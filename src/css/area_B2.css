@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+.B2{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.B2 td{
+    border: 1px solid;
+    padding : 0;
+}
+
+td{
+    width: 80px;
+    height: 50px;
+    background-color: orange;
+}
+
+td:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+td:active {
+    background-color: yellow;
+}
+
+.hallway {
+    background-color: #ffffff;
+    width: 360px;
+    height: 100px;
+}
+
+.hallway:hover{
+    background-color: #ffffff;
+}
+
+.classroom {
+    background-color: aliceblue;
+    height: 180px;
+}
+
+.classroom:hover{
+    background-color: aliceblue;
+}
+
+.blank{
+    background-color: white;
+}
+
+.blank:hover{
+    background-color: #ffffff;
+}
